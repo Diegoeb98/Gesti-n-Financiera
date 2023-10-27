@@ -121,7 +121,7 @@ En cualquier periodo, C es el valor de mercado de la opción call; S es el preci
 
 A partir de los retornos de la acción de Banco de Chile,  se pudo determinar S = 91.24 CLP y su 2= 0.6%. Además, para la tasa libre de riesgo se utilizó la tasa del banco central y gobierno a 10 años que da un valor de 5% mensual para un periodo de 1 año y un precio de ejercicio igual a 95 CLP. 
 
-Utilizando el código generado en colab ([Colab_DiegoE](https://colab.research.google.com/drive/1Pjnp6_C0Y32LhWiUxyWbtOx2XldGpOW5?usp=sharing)) el resultado del precio de la opción de compra en un periodo de 1 año es aproximadamente de 21.85 	CLP. Además se realizó un gráfico para analizar la variación del precio de opción de compra los valores de strike de 80 hasta 150, a continuación el resultado: 
+Utilizando el código generado en colab ([Colab_DiegoE](https://colab.research.google.com/drive/1Pjnp6_C0Y32LhWiUxyWbtOx2XldGpOW5?usp=sharing)) el resultado del precio de la opción de compra en un periodo de 1 año es aproximadamente de 21.85 CLP. Además se realizó un gráfico para analizar la variación del precio de opción de compra los valores de strike de 80 hasta 150, a continuación el resultado: 
 
 ![](photos/B-S.png)
 
@@ -129,11 +129,11 @@ Observamos que cuando el precio de ejercicio aumenta en el modelo de Black-Schol
 
 **Modelo de Montecarlo**
 
-El modelo supone que es una opción europea y comienza con la generación \"z\" a través de \"n\" simulaciones. Para esto fija una semilla para crear números aleatorios con una distribución normal. Uno de esos valores es utilizado para calcular el precio del activo subyacente al vencimiento. Este cálculo se hace a través de la siguiente manera:
+El modelo supone que es una opción europea y comienza con la generación "z" a través de "n" simulaciones. Para esto fija una semilla para crear números aleatorios con una distribución normal. Uno de esos valores es utilizado para calcular el precio del activo subyacente al vencimiento. Este cálculo se hace a través de la siguiente manera:
 
 ![](photos/MONTECARLO.png)
 
-Donde, ST es el precio del activo subyacente; S es el precio actual del activo subyacente, T el tiempo de expiración en años, r la tasa libre de riesgo, sigma la volatilidad del activo subyacente y \"z\" la variable aleatoria con distribución normal obtenida a través de montecarlo.
+Donde, ST es el precio del activo subyacente; S es el precio actual del activo subyacente, T el tiempo de expiración en años, r la tasa libre de riesgo, sigma la volatilidad del activo subyacente y "z" la variable aleatoria con distribución normal obtenida a través de montecarlo.
 
 Posteriormente, se calcula el valor del payoff usando:
 
@@ -145,7 +145,7 @@ Finalmente para calcular el valor de la opción se utiliza la siguiente fórmula
 
 ![](photos/final.png)
 
-Cabe destacar que este modelo fue obtenido del documento llamado \"Monte Carlo Methods in Financial Engineering\", hecho por (Glassermann, 2003).
+Cabe destacar que este modelo fue obtenido del documento llamado "Monte Carlo Methods in Financial Engineering", hecho por (Glassermann, 2003).
 
 Para este caso, se utilizan los mismos valores de S, r, T, y K utilizados en el modelo Black-Scholes. Se observa para una cantidad de  100,000 simulaciones el colab ([Colab_DiegoE](https://colab.research.google.com/drive/1Pjnp6_C0Y32LhWiUxyWbtOx2XldGpOW5?usp=sharing)) que el valor el valor estimado de la opción de compra europea es: 20.83 CLP. 
 
@@ -177,27 +177,31 @@ Se observa que si bien son modelos distintos, el resultado es bastante similar e
 
     Para resolver este problema, se debe tener en cuenta la siguiente información.
 
-    |                                      |         |          |
-    |--------------------------------------|---------|----------|
-    | Centros                              | 4       | unidades |
-    | Pagos                                | 185.000 | USD      |
-    | Tranferencia de saldos               | 14      | días     |
-    | Cuentas de inversión                 | 0,07    | \%       |
-    | Costo tranferecnias electrónicas     | 0,20    | \%       |
-    | Rendimiento (en cuenta de inversión) | 0,075   | \%       |
-    | Costo tranferencia por ACH           | 200     | USD      |
+    El activo de la cartera a elegir es el del sector inmobiliario, Parque Arauco S.A. Para el rendimiento de las inversiones, se utilizó la infomración diaria de los retornos del mes de octubre. Además, se consideran 12 centros, que son los que se encuentran en Chile. El resto de los datos se mantuvieron como los del problema.
 
-Se obtiene que el flujo de efectivo que se genera con el flujo de caja descrito en el enunciado y con el que se paga finalmente la nómina es de \$10.385.104 USD.
+Centros
+
+|                                      |         |          |
+|--------------------------------------|---------|----------|
+|                                      | 12      | unidades |
+| Pagos                                | 185.000 | USD      |
+| Tranferencia de saldos               | 14      | días     |
+| Cuentas de inversión                 | 0,07    | \%       |
+| Costo tranferecnias electrónicas     | 0,20    | \%       |
+| Rendimiento (en cuenta de inversión) | -2,4%   | \%       |
+| Costo tranferencia por ACH           | 200     | USD      |
+
+Se obtiene que el flujo de efectivo que se genera con el flujo de caja descrito en el enunciado y con el que se paga finalmente la nómina es de \$31.155.312 USD.
 
 2.  *De acuerdo con los términos propuestos por Third National Bank, ¿la compañía debe adoptar el sistema de banco concentrador?*
 
 El banco aceptará las transferencias ACH de los cuatro bancos diferentes, por lo que la compañía incurre en una tarifa de transferencia de cada centro de recolección. Es por eso que ahora se deberá descontar el valor de la transferencia ACH a los pagos de 185mil USD de cada día. Además, todo será dividido por (1+ tasa de rendimiento).
 
-Se obtiene que finalmente el valor de ACH será de \$10.391.608 USD. Como se puede observar, este valor es mayor al obtenido en la pregunta anterior, por lo tanto la compañía debería adoptar el sistema del banco concentrador.
+Se obtiene que finalmente el valor de ACH será de \$27.293.900 USD. Como se puede observar, este valor es menor al obtenido en la pregunta anterior, por lo tanto la compañía no debería adoptar el sistema del banco concentrador.
 
 3.  *¿Qué costo de las transferencias por ACH haría que resultara indiferente para la empresa elegir cualquiera de los dos sistemas?*
 
-X = 10.393.294,13
+    Se obtuvo que el costo de transferencia es de \$30.407.986 USD. Esto nos indica que con este costo la empresa estaría indiferente en elegir entre ambos sistemas.
 
 Bibliografía:
 
