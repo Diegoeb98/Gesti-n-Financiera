@@ -75,11 +75,45 @@ Por el contrario, también se encuentran los pasivos y patrimonio de la empresa:
 
 Se observa que los pasivos que más alto porcentaje tienen son depósitos y otras obligaciones a la vista, depósitos y otras captaciones a plazo e instrumentos financieros de capital regulatorio emitidos. Su porcentaje con respecto al total de pasivos y patrimonio es de 23,5%, 27,88% y 17,55% respectivamente. 
 
-Con respecto a las emisiones de deuda del Banco, no se encontró información alguna de aquello.
+#### Emisiones
+
+En el caso de la banca chilena, existe todo un proceso para la inscripción de registros de emisión de acciones que se detalla en la página de la CMF. En el caso de realizar la emisión de acciones para el aumento de capital se debe seguir la "NORMA DE CARÁCTER DE GENERAL N° 30", específicamente la sección III.
+
+\
+
+En la norma se especifica paso a paso las instrucciones necesarias para la elaboración del prospecto de emisión de acciones. Los pasos a seguir son los siguientes:
+
+\
+
+1.  **Información General:** Entregar información general del o los intermediarios que han participado en la elaboración. Además mencionar en que mercado serán transadas dichas acciones, ya sea en el mercado general o en el mercado para empresas emergentes. 
+
+2.  **Identificador del emisor y la emisión:** Posteriormente se capitula la fecha de la elaboración y la información general de la empresa. Esto se refiere al nombre completo de la sociedad, su RUT, dirección de la oficina principal, correo electrónico y página web si corresponde. 
+
+3.  **Antecedentes generales de la sociedad:** Asimismo, se debe entregar los antecedentes generales de la empresa. Para esto se debe presentar una descripción de la historia de la sociedad desde su fundación hasta la fecha, informando principalmente las actividades realizadas, cambios de razón social , adquisiciones y/o venta de activos significativos, fusiones y transformaciones. Además debe contener los sectores industriales o económicos en los cuales se desarrollan las actividades, los productos o servicios prestados, clientes y los principales factores de riesgo que pueden afectar al desempeño del negocio.
+
+4.  **Antecedentes Financieros:** Es necesario proporcionar una descripción detallada y un análisis de la situación financiera de la entidad. Se requiere presentar información financiera que destaque las tendencias consideradas como pertinentes en el contexto, permitiendo así una comprensión profunda de la situación económica. Además se debe presentar una tabla que abarque detalles relativos a ingresos, costos, resultados, activos, pasivos y patrimonio. Además, se requiere la inclusión del cálculo de las ratios financieras que proporcionen una visión clara de la situación de la sociedad, especificando la metodología empleada en dichos cálculos.
+
+5.  **Propiedad y control:** El informe debe detallar la participación del controlador o grupo controlador según la Ley Nº 18.045, identificando a las personas naturales que ejercen dicho control. En caso de un grupo controlador, se debe especificar si hay un pacto de actuación conjunta. Si no hay controlador, esto debe indicarse claramente. También se deben mencionar los accionistas mayoritarios excluyendo a los controladores, identificar a los 12 mayores accionistas con sus porcentajes y proporcionar el número total de accionistas.
+
+6.  **Administración:** En relación a la estructura directiva, se requiere proporcionar información clave. Esto incluye el nombre completo de los Directores o administradores con sus respectivos números de RUT. En caso de existir un comité de directores, se debe indicar el nombre completo de sus integrantes y sus RUTs. Asimismo, se precisa detallar los ejecutivos principales, con nombres completos, cargos, RUTs y la fecha de inicio en sus funciones. En cuanto a los planes de incentivo, se solicita una breve descripción, especialmente si involucran compensaciones o beneficios especiales para ejecutivos, incluyendo detalles sobre opciones sobre acciones, asignación, y ejercicio de las mismas.
+
+7.  **Antecedentes legales de la emisión de acciones:** Se debe proporcionar la fecha de la junta que aprobó el aumento de capital, la fecha en que el acta de la junta se formalizó como escritura pública, la notaría donde se llevó a cabo, y su domicilio. Además, se requiere indicar la fecha de publicación del extracto de la escritura en el Diario Oficial, especificando la ciudad, fecha, número y foja de inscripción en el registro de comercio del Conservador de Bienes Raíces correspondiente.
+
+8.  **Características de la emisión:** Se debe especificar el monto máximo y el número total de acciones a emitir, clasificando por clase o serie. Se debe indicar si las acciones son ordinarias o preferidas, identificando series y preferencias. Además, se requiere informar el porcentaje esperado de las acciones de primera emisión en relación al total suscrito al final de la colocación y el porcentaje esperado de dispersión después de la colocación. También se debe mencionar el valor nominal de las acciones, el precio de colocación o el método para determinarlo, con detalles sobre su divulgación. Se debe especificar el plazo de colocación, la forma de pago y el uso previsto de los fondos obtenidos, incluyendo el monto esperado a recaudar y cualquier otro recurso utilizado, así como el destino de los fondos (por ejemplo, prepagar deudas).
+
+9.  **Descripción de la colocación:** Deben especificarse el número de acciones de primera emisión y, de aplicar, las acciones en circulación a colocar. Indicar si la colocación será directa o a través de intermediarios, mencionando su identidad y cualquier relación especial. Describir el procedimiento de colocación y el plazo acordado. En caso de un porcentaje mínimo a ofrecer, informar sobre este y los procedimientos si no se alcanza. Detallar el plan para las acciones no suscritas al término del plazo.
+
+Para más información, leer documento de la página web <https://www.cmfchile.cl/portal/principal/613/w3-article-14647.html> .
 
 #### Relación con activos derivados
 
-Si bien no se encuentra mayor información sobre activos derivados que dependan del precio de la acción del Banco de Chile, este como ente utiliza derivados financieros con el fin de reducir riesgo. El más común es el riesgo de tipo de cambio, se les da principalmente con el dólar. Para esto el banco llega a un acuerdo con el banco central u otra entidad con el fin de pactar un precio para el valor de venta y compra del dólar. Esta opción no es una obligación pero si le da la posibilidad al banco de poder ejecutarla y así disminuir el riesgo tanto de tipo de cambio como el riesgo por tasa de interés. Otro caso que se da, son los forwards. Donde el banco pacta un precio de compra o venta en una fecha determinada para transar dólares.
+Los derivados financieros más utilizados por la banca en general son los contratos de futuros dólar. Son usados para que el banco pueda contrarrestar riesgos derivados de la volatilidad de las tasas de interés y el tipo de cambio. Un claro ejemplo de este último son las transacciones internacionales, los contratos a futuros ayudan a proteger los márgenes de beneficio y los flujos de efectivo al ofrecer una cobertura contra las fluctuaciones de divisas.
+
+Este tipo de contrato tiene especificaciones, como el activo subyacente, horario de negociación, nemotécnico, cotización, valoración mínima, entre otro. El activo subyacente corresponde al tipo de cambio de dólar definido en función de las transacciones efectuadas por las empresas bancarias en el día hábil anterior. Normalmente se negocia entre las 8:30 y 14:00 hrs. Su código de identificación en la bolsa suele ser DOLAR-MMAA, donde MMAA corresponde al mes y año de vencimiento. Se debe especificar los meses al vencimiento como el precio de liquidación diaria. Además de otro tipo de datos que se deben especificar.
+
+Se habla a modo general, dado que si bien uno puede observar distintos contratos futuros dólar en la página de la Bolsa de Santiago, ninguno de estos cuenta con transacciones. Solo se observa el código de identificación, precio, variación, condición, contratos y montos. Pero como se mencionó anteriormente, no ha habido cambios en ellos. Todo esto se observa en la siguiente imagen:
+
+![](photos/Captura%20de%20Pantalla%202023-11-13%20a%20la(s)%2022.02.46.png)
 
 ### Reporte grupal
 
@@ -211,9 +245,13 @@ Banco de Chile (2023). Acerca de nosotros. Disponible en: <https://portales.banc
 
 Banco de Chile. 2023. Informe sobre los estados financieros intermedios consolidados. Disponible en: <https://portales.bancochile.cl/nuestrobanco/es/investor-relations/informacion-financiera/reportes-financieros> 
 
+Bolsa de Santiago. 2023. Futuros. Disponible en: <https://www.bolsadesantiago.com/futuros>
+
 Bolsa de Santiago. 2023. Resumen del Instrumento. Disponible en: https://www.bolsadesantiago.com/resumen_instrumento/CHILE
 
 CMF. 2023.Información de Fiscalizados y otras instituciones registradas. Disponible en:  <https://www.cmfchile.cl/portal/principal/613/w3-propertyvalue-29006.html> (Accedido en: Septiembre 27, 2023)
+
+CMF. 2023. Inscripción en Regristro de Emisión de Acciones. Disponible en: <https://www.cmfchile.cl/portal/principal/613/w3-article-14647.html>
 
 Dua, Brian. Serrano, Alejandro. Vianna, André. 2018.  Institutional development and foreign banks in Chile. Disponible en: <https://www.sciencedirect.com/science/article/abs/pii/S1057521917301266?via%3Dihub>
 
